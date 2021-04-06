@@ -91,9 +91,9 @@ public class Dijkstra {
 처음에는 무한대로 초기화하고, 더 작은 경로를 찾을 때마다 거리 값을 갱신한다.
 
 ### 시간복잡도
-*O(V^2)*의 시간복잡도를 가지고있으며, 우선순위 큐(=힙 트리)등을 이용하여 *O((V+E)logV)*로 개선된다
+**O(V^2)** 의 시간복잡도를 가지고있으며, 우선순위 큐(=힙 트리)등을 이용하여 **O((V+E)logV)** 로 개선된다
 
-### **입력 후 처리과정**
+### 입력 후 처리과정
 
 ![KakaoTalk_20210406_223820316](https://user-images.githubusercontent.com/80372995/113720785-f2545b00-9729-11eb-819b-da29ffee3739.jpg)
 ![KakaoTalk_20210406_223820481](https://user-images.githubusercontent.com/80372995/113720791-f2ecf180-9729-11eb-92cf-a51d5d2d725f.jpg)
@@ -101,7 +101,7 @@ public class Dijkstra {
 ![KakaoTalk_20210406_223820879](https://user-images.githubusercontent.com/80372995/113720797-f3858800-9729-11eb-9df0-ac82e788b04a.jpg)
 
 
-### **출력**
+### 출력
 
 `0 3 2 1 4 3 5`
 
